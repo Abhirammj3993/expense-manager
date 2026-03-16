@@ -1,0 +1,8 @@
+# fp=open("data","a")
+# name=input("Enter Your Name")
+# fp.write(name+"\n")
+# fp.close()
+fp=open("data","r")
+data=fp.read()
+print(data)
+fp.close()
